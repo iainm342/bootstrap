@@ -11,13 +11,28 @@
 <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/" class="navbar-brand">Whiskey Drop</a>
+        
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
-        <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
-        </ul>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Whiskeys
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdoenMenuLink">
+                        <a class="dropdown-item" href="#">Irish</a>
+                        <a class="dropdown-item" href="#">Scotch</a>
+                        <a class="dropdown-item" href="#">Japanese</a>
+                        <a class="dropdown-item" href="#">American</a>
+                    </div>
+                </li>
+                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+            </ul>
+        </div>
         <div class="d-none d-md-block">
             <p class="nav-bar text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
             <a href="/login">Sign In / Sign Up</a>
@@ -59,7 +74,7 @@
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="https://raw.githubusercontent.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/master/03-Components/02-core_components-part-2/images/girl-image.png" class="rounded-circle mr-3" height=100>
+                            <img src="images/girl-image.png" class="rounded-circle mr-3" height=100>
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -72,7 +87,7 @@
                 <div class="col-12 col-md-6">
                      <div class="media">
                          <div class="d-none d-sm-block">
-                            <img src="https://raw.githubusercontent.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/master/03-Components/02-core_components-part-2/images/guy-image.png" class="rounded-circle mr-3" height=100>
+                            <img src="images/guy-image.png" class="rounded-circle mr-3" height=100>
                          </div>  
                         <div class="media-body">
                             <blockquote class="blockquote">
